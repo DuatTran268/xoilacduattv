@@ -792,9 +792,6 @@ body #app{
   font-weight: 500;
 }
 
-
-
-
 .footer__menu .address > a{
   color: var(--color--text-btn);
 }
