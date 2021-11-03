@@ -10,6 +10,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 ul,
@@ -86,6 +87,9 @@ a{
   color: var(--color-header);
   font-weight: 550;
   font-size: .9rem;
+}
+.navbar--item .nav--link:hover{
+  color: var(--white-color);
 }
 
 
@@ -235,8 +239,11 @@ body #app{
 
 }
 
-.list__filter li a {
+.list__filter>li>a {
   font-size: 0.9rem;
+}
+.list__filter>li>a:hover{
+  color: var(--white-color);
 }
 
 .list__filter {
@@ -421,7 +428,7 @@ body #app{
 .grid__team--name {
   color: #fff;
   margin-bottom: 10px;
-  font-size: .9rem;
+  font-size: .8rem;
 }
 
 .btn--odds {
@@ -431,7 +438,6 @@ body #app{
   background-color: var(--color--btn);
   opacity: 0.85;
 }
-
 
 
 .btn--odds,
@@ -458,7 +464,7 @@ body #app{
   color: var(--green-color);
 }
 .btn__see-more:hover{
-  color: var(--color-header);
+  color: var(--white-color);
 }
 
 /* css section soi kèo bóng đá ============= */
@@ -508,7 +514,11 @@ body #app{
   padding: 0px 20px;
   margin: 6px 0px;
 }
-
+.category--title > a:hover{
+  background-color: var(--white-color);
+  color: var(--green-color);
+  transition: all 0.3s ease;
+}
 
 /* layout css các nhận định của kèo */
 
@@ -535,6 +545,19 @@ body #app{
 
 }
 
+.post__thumbnail{
+  overflow: hidden;
+}
+
+.post__title-img{
+  transition: all 0.4s ease;
+}
+
+.post__title-img:hover{
+  transform: scale(1.08);
+}
+
+
 .post__title{
   padding: 30px 10px;
 }
@@ -542,6 +565,11 @@ body #app{
 .post__title a{
   color: var(--color--text-btn);
   font-size: .9rem;
+}
+
+.post__title a:hover{
+  color: var(--green-color);
+  transition: all 0.4s ease;
 }
 
 /* css section bên phải của soi kèo */
@@ -668,6 +696,7 @@ body #app{
 .offer__btn:hover{
   background-color: var(--white-color);
   color: var(--color-cl3);
+  transition: all 0.6s ease;
 }
 
 /* css video highlight css */
@@ -709,6 +738,17 @@ body #app{
   width: 265px;
   height: 164px;
 }
+/* hover img transition */
+.video__list--img{
+  overflow: hidden;
+}
+.video__image{
+  transition: all 0.4s ease-in;
+}
+.video__image:hover{
+  transform: scale(1.08);
+}
+
 
 .title__name{
   font-size: .9rem;
@@ -719,6 +759,10 @@ body #app{
   color: var(--color--text-btn);
 }
 
+.title__name > a:hover{
+  color: var(--green-color);
+  transition: all 0.4s ease;
+}
 
 /* about giới thiệu về xôi l  */
 
@@ -791,6 +835,9 @@ body #app{
   text-transform: uppercase;
   font-weight: 500;
 }
+
+
+
 
 .footer__menu .address > a{
   color: var(--color--text-btn);
