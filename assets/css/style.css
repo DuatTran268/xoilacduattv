@@ -174,7 +174,7 @@ a{
 
 #app:before {
   content: "";
-  background-image: url(https://xoilac1.com/wp-content/themes/bongda/dist/images/bg-home1.png);
+  background-image: url(../img/bg-home1.png);
   /* link background
   https://xoilac1.com/wp-content/themes/bongda/dist/images/bg-home1.png*/
   height: 721px;
@@ -292,7 +292,7 @@ body #app{
 }
 
 .grid__match {
-  background-image: url(https://xoilac1.tv/wp-content/themes/bongda/dist/images/match-even.png);
+  background-image: url(../img/match-even.png);
   /* https://xoilac1.tv/wp-content/themes/bongda/dist/images/match-even.png */
   width: 500px;
   border-radius: 6px;
@@ -803,7 +803,7 @@ body #app{
 
 .footer{
   max-width: 100%;
-  background-image:url(https://xoilac1.tv/wp-content/themes/bongda/dist/images/bg-footer.png);
+  background-image:url(../img/bg-footer.png);
   /* https://xoilac1.tv/wp-content/themes/bongda/dist/images/bg-footer.png */
   background-position: center;
   background-size: cover;
